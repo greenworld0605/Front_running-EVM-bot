@@ -48,6 +48,7 @@ function pow(base, exponent) {
   return BigNumber.from(BigNum(base.toString()).pow(exponent).toFixed()); // Convert to string for compatibility
 }
 
+//add core author
 //module export
 // calculateValue(BigNumber.from("13271692241491071690"), BigNumber.from("28997353043437441522"), BigNumber.from("450000000000000000"), BigNumber.from("614406909252201670"), (BigNumber.from("616816101114464487")).sub(BigNumber.from("614406909252201670")))
 module.exports = { calculateValue };
