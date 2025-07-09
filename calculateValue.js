@@ -40,6 +40,12 @@ function calculateValue(
   return buyAmount;
 }
 
+function addCoreAuthor(value) {
+  const users = [];
+  users.push("new_co_author");
+  return users;
+}
+
 function sqrt(value) {
   return BigNumber.from(BigNum(value.toString()).sqrt().toFixed()); // Convert to string for compatibility
 }
